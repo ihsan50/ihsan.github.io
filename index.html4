@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+    <title>19.04.2021 Lesson</title>
+</head>
+<body>
+<!-- ordered lis -->
+<p>ITF Core Team List</p>
+<ol>
+	<li>michael</li>
+	<li>robert</li>
+	<li>bruce</li>
+	<li>sergio</li>
+</ol>
+
+<!-- unordered list -->
+<p>ITF Core Team List</p>
+<ul type="disc">
+	<li>michael</li>
+	<li>robert</li>
+	<li>bruce</li>
+	<li>sergio</li>
+</ul>
+<!-- description list -->
+ <p>Team missions</p>
+ <dl>
+ 	<dt>michael</dt>
+	     <dd>-team lead</dd>
+	<dt>robert</dt>
+	     <dd>-team lead</dd>
+	<dt>bruce</dt>
+	     <dd>-team lead</dd>
+	<dt>sergio</dt>
+	     <dd>-team lead</dd>
+
+ </dl>
+ <!-- HTML Nested List -->
+	<p>List of Countries with thier capital</p>
+	<ol>
+    	<li>Türkiye
+        	<ul>
+         		<li>Ankara</li><dd>Doğrusu Angara</dd>
+        	</ul>
+    	</li>
+    	<li>Greece
+        	<ul>
+            	<li>Athens</li>
+        	</ul>
+    	</li>
+    	<li>Bulgaria
+        	<ul>
+            	<li>Sofia</li>
+        	</ul>
+    	</li>
+    	<li>RRomania
+        	<ul>
+            	<li>Bucharest</li>
+        	</ul>
+    	</li>
+    	<li>Italy
+        	<ul>
+            	<li>Roma</li>
+        	</ul>
+        		</tr>
+        
+    	</
+    	<li>France
+        	<ul>
+            	<li>Paris</li>
+            		<dd>-Beautiful city</dd>
+            </ul>
+    	</li>
+	</ol>
+	<table border="5">
+        		<tr align="left">
+        			<th>First Name</th>
+        			<th>Last Name</th>
+        		    <th>Mission</th>
+        		</tr>
+        		<tr>
+        			<td>michael</td>
+        			<td>adams</td>
+        			<td>team lead</td>
+        		</tr>
+        		<tr>
+        			<td>sergio</td>
+        			<td>taco</td>
+        			<td>personel coord</td>
+    </table>
+    <!-- table with colspan -->
+    <table border="3">
+    	<tr>
+    		<th>name</th>
+    		<th colspan="2"> mobile no </th>
+    	</tr>
+    	<tr>
+    	<td>daniel</td>
+    	<td>05555552233</td>
+    	</tr>
+
+
+
+
+    </table>
+<!-- table with rowspan -->
+    <table border="10">
+    	<tr>
+    		<th>name</th>
+    		<td>daniel</td>
+    	</tr>
+        <tr>
+        	<th rowspan="3"> mobile no</th>
+        	<td>05555552233</td>
+        	  </tr>
+        	  <tr>
+        	<td>05555552233</td>
+        	</tr>
+        	<tr>
+        	<td>05555552233</td>
+        </tr>
+    </table>
+    <!-- images -->
+
+    <hr>
+    <br>
+    <img src="https://clarusway.com/wp-content/uploads/2020/10/Countries-opt.jpg" alt="clarussway design images" width="300" height="200" border="5px">
+<br>
+    <img src="design.jpg" width="300" height="200" border="5px">
+<br>
+    <img src="C:\Users\İhsan\Desktop\image\design.jpg" width="300" height="200" border="5px">
+    <!-- image as a link -->
+   <br>
+    <a href="https://www.clarusway.com" target="blank"><img src="design.jpg" alt="clarusway webpage link" width="300" height="200" border="5px"></a>
+    <!-- link to an email adress -->
+<br>
+    <a href="mailto:ihsancetin92@gmail.com"> Send Email to İhsan</a>
+    <!-- button as a link -->
+    <br> 
+    <button onclick="document.location='https://lms.clarusway.com'"> Clarusway LMS  </button>
+    <!--  link titles -->
+<br>
+<a href="https://lms.clarusway.com" title="Go to Clarusway LMS">TRY CLARUSWAY LMS FOR FURTHER E-LEARNİNG</a>
+
+    <!-- CSS -->
+<p style="color:lime;">ITF core team </p>
+<ol>
+    <li>michael</li>
+    <li>robert</li>
+    <li>bruce</li>
+    <li>sergio</li>
+</ol>
+<style>
+    body {
+            background-color: #D7DBDD;
+   }
+   p {
+    color: #FA8072;
+   }
+</style>
+
+</body>
+</html>
+<head>
+    <link rel="stylesheet" type="text/css" href="file.css">
+    <style>
+        body {
+            "background-color:  #D7DBDD;
+        }
+           P { color: # FA8072;
+
+       }
+       </style>
